@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from attention import MultiHeadAttention
 
 class LayerNorm(nn.Module):
